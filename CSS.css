@@ -1,2 +1,171 @@
-.titre {
+/* Importation des deux polices de caractères depuis Google Fonts */
+@import url('https://googleapis.com');
+
+/* Reset global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Première police pour tout le texte général */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #120d0a; /* Noir anthracite / volcanique */
+    color: #f5f2f0; /* Blanc cassé pour le confort visuel */
+    line-height: 1.6;
+}
+
+/* En-tête et Menu */
+header {
+    background-color: #1c1410; /* Brun magmatique très sombre */
+    padding: 25px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ff4500; /* Ligne orange lave vive */
+}
+
+h1 {
+    /* Deuxième police appliquée uniquement aux grands titres */
+    font-family: 'Russo One', sans-serif;
+    color: #ff4500;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+    color: #ff7f50; /* Orange plus doux pour les sous-titres */
+    margin-bottom: 15px;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #d1c7bd;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover, nav a.active {
+    background-color: #ff4500;
+    color: #120d0a;
+}
+
+/* Conteneur de contenu */
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1c1410;
+    border-radius: 8px;
+    border: 1px solid #2d201a;
+}
+
+/* Images responsives */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-top: 20px;
+    display: block;
+    border: 2px solid #2d201a;
+}
+
+/* Tableau Adaptatif */
+.table-container {
+    overflow-x: auto; /* Permet le glissement latéral du tableau sur smartphone */
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #3a2a22;
+}
+
+th {
+    background-color: #2d201a;
+    color: #ff7f50;
+}
+
+tr:hover {
+    background-color: #251b15;
+}
+
+/* Liste à puces */
+.volcano-list {
+    margin: 20px 0 25px 25px;
+}
+
+.volcano-list li {
+    margin-bottom: 12px;
+}
+
+.volcano-list strong {
+    color: #ff7f50;
+}
+
+/* Boîte d'action et Bouton Externe */
+.action-box {
+    margin-top: 35px;
+    padding: 25px;
+    background-color: #2d201a;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.btn-external {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #120d0a;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 15px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn-external:hover {
+    background-color: #ff6347;
+    transform: scale(1.03);
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #6e584f;
+    font-size: 0.9rem;
+}
+
+/* RESPONSIVE DESIGN : Media Query (< 600px) */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Aligne le menu à la verticale sur mobile */
+        gap: 8px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        margin: 15px;
+        padding: 15px;
+    }
 }
