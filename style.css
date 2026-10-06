@@ -1,40 +1,45 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-margin: 0;
-padding: 24px;
-background: #a67349;
-color: #b81f0b;
-font-family: Arial, Helvetica, sans-serif;
-line-height: 1.5;
+    margin: 0;
+    padding: 24px;
+    background: #fff3ed;
+    color: #7f1d1d;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 .page1 {
-max-width: 900px;
-margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto;
 }
+
 header {
-position: relative;
-background: #a67349;
-color: white;
-padding: 24px 34px 20px;
-border-radius: 9px;
-margin-bottom: 16px;
-overflow: hidden;
+    position: relative;
+    background: linear-gradient(135deg, #c2410c, #ea580c, #f97316);
+    color: #fff;
+    padding: 30px 34px 26px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(154, 52, 18, 0.2);
 }
 
 header h1 {
-margin: 0 0 4px;
-color: #a67349;
-font-size: 38px;
-line-height: 1.15;
-align-items: center;
+    margin: 0 0 6px;
+    color: #fff7ed;
+    font-size: 38px;
+    line-height: 1.15;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 header .paragraphe1 {
-margin: 0;
-color: #a67349;
-font-size: 18px;
+    margin: 0;
+    color: #ffedd5;
+    font-size: 18px;
+    text-align: center;
 }
