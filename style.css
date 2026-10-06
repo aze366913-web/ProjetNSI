@@ -5,8 +5,8 @@
 body {
 margin: 0;
 padding: 24px;
-background: white;
-color: white;
+background: #a67349;
+color: #b81f0b;
 font-family: Arial, Helvetica, sans-serif;
 line-height: 1.5;
 }
@@ -17,7 +17,7 @@ margin: 0 auto;
 }
 header {
 position: relative;
-background: #912714;
+background: #a67349;
 color: white;
 padding: 24px 34px 20px;
 border-radius: 9px;
@@ -27,13 +27,14 @@ overflow: hidden;
 
 header h1 {
 margin: 0 0 4px;
-color: #a67349;
+color: white;
 font-size: 38px;
 line-height: 1.15;
+center-align: center;
 }
 
 header .paragraphe1 {
 margin: 0;
-color: #a67349;
+color: white;
 font-size: 18px;
 }
