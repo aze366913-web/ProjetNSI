@@ -5,8 +5,8 @@
 body {
 margin: 0;
 padding: 24px;
-background: #b81f0b;
-color: white;
+background: white;
+color: #b81f0b;
 font-family: Arial, Helvetica, sans-serif;
 line-height: 1.5;
 }
@@ -17,7 +17,7 @@ margin: 0 auto;
 }
 header {
 position: relative;
-background: #b81f0b;
+background: #a67349;
 color: white;
 padding: 24px 34px 20px;
 border-radius: 9px;
